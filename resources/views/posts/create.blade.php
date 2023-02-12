@@ -25,7 +25,7 @@
           <a href="{{ route('posts.index') }}">&lt; 戻る</a>
         </div>
 
-        <form action="#" method="post">
+        <form action="{{ route('posts.store') }}" method="post">
           @csrf
           <div>
             <label for="title">タイトル</label>
@@ -35,6 +35,7 @@
             <label for="content">本文</label>
             <textarea name="content"></textarea>
           </div>
+          <button type="submit">投稿</button>
         </form>
       </div>
     </article>
