@@ -39,11 +39,11 @@
           @csrf
           <div>
             <label for="title">タイトル</label>
-            <input type="text" name="title">
+            <input type="text" name="title" value="{{ old('title') }}">
           </div>
           <div>
             <label for="content">本文</label>
-            <textarea name="content"></textarea>
+            <textarea name="content">{{ old('content') }}</textarea>
           </div>
           <button type="submit">投稿</button>
         </form>
