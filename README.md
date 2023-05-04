@@ -1,3 +1,20 @@
+## アプリケーション名
+ Twitter風の投稿アプリ
+<br>
+## アプリケーション概要
+ 投稿・編集・削除ができるシンプルなTwitter風の投稿アプリです。
+<br>
+## URL
+https://posting-app-nh.herokuapp.com/
+<br>
+## 習得した技術
+CRUD機能の実装方法を学習しました。  
+MVCモデルを採用することにより、コードが整理されて管理しやすくなるほか、開発効率を上げられることを学び、作成しました。  
+bootstrapを使い、スマートフォン等でも表示が崩れないようなデザインを効率的に実装しました。  
+Laravelでアプリとデータベースを接続する手順を学習しました。  
+バリデーション機能について学習し、バリデーションに引っかかった際はデータが保持されるようにする実装方法を学びました。  
+Herokuへのデプロイ方法を学びました。  
+<br>
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
